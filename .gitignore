@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# 对拍用的编译产物
+tests/_parity_build/
+
+# 生成的音频
+examples/out/
+*.wav
+!tests/fixtures/*.wav
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store

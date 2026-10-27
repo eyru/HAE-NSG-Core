@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hae-nsg"
+version = "0.1.0"
+description = "Hearizon Audiology Engine — Noise-Suppression Gain Core：语音识别前的降噪与增益"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "何瑞程", email = "1585253788@qq.com" }]
+keywords = ["audio", "denoise", "gain", "asr", "speech", "vad", "preprocessing"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C++",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["numpy>=1.20"]
+
+[project.urls]
+Homepage = "https://github.com/eyru/HAE-NSG-Core"
+Source = "https://github.com/eyru/HAE-NSG-Core"
+
+[project.scripts]
+hae-nsg = "hae_nsg.cli:main"
+
+[tool.setuptools]
+packages = ["hae_nsg"]
+
+[tool.setuptools.package-data]
+hae_nsg = ["py.typed"]
