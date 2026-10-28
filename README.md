@@ -1,11 +1,17 @@
 # HAE-NSG Core
 
+> **⚠️ 私有专享技术 · 不授予任何使用许可**
+>
+> 本仓库为作者的私有专享技术，**所有权利保留（All Rights Reserved）**，未授予
+> 任何开源或许可。仅供浏览了解：不得复制、下载、修改、分发，或用于任何商业目的。
+> 详见 [LICENSE](LICENSE)　·　商业授权与合作：hrcsnowfly@outlook.com
+
 **Hearizon Audiology Engine — Noise-Suppression Gain Core**
 
 ### 语音识别的前端增益与噪声抑制引擎
 
 > 作者 **何瑞程**（He Ruicheng）· 北京语言大学 海南国际学院
-> 独立实现 · 不基于任何现有 VAD / 降噪工程 · MIT 许可
+> 独立实现 · 不基于任何现有 VAD / 降噪工程 · 专有许可 · 所有权利保留
 
 ---
 
@@ -329,7 +335,12 @@ Hearizon Audiology Engine 拆成两个独立模块，加一个把它们装进实
 
 ## 许可证
 
-MIT。见 [LICENSE](LICENSE)。
+**专有许可 · 所有权利保留（All Rights Reserved）**。见 [LICENSE](LICENSE)。
+
+本仓库不授予任何使用许可。未经著作权人书面许可，不得复制、下载、修改、
+分发、再许可、反向工程，或用于任何商业目的（含内部商业使用）。仅供浏览了解。
+
+商业授权与技术合作：hrcsnowfly@outlook.com
 
 ---
 

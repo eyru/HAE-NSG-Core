@@ -12,7 +12,7 @@
 //
 // 依赖：只有标准库。C++17。
 //
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: LicenseRef-Proprietary
 
 #ifndef HAE_NSG_H
 #define HAE_NSG_H

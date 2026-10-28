@@ -8,13 +8,12 @@ version = "0.1.0"
 description = "Hearizon Audiology Engine — Noise-Suppression Gain Core：语音识别前的降噪与增益"
 readme = "README.md"
 requires-python = ">=3.8"
-license = { text = "MIT" }
+license = { text = "LicenseRef-Proprietary" }
 authors = [{ name = "何瑞程", email = "1585253788@qq.com" }]
 keywords = ["audio", "denoise", "gain", "asr", "speech", "vad", "preprocessing"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: C++",
     "Topic :: Multimedia :: Sound/Audio :: Analysis",
