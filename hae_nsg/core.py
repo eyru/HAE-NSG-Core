@@ -314,8 +314,9 @@ def process(audio, profile=FAR, rate=16000):
         实际听起来更吵。这是上一版引擎的真实毛病。
 
         所以这里让增益只作用在语音帧上，静音帧走独立路径：
-        它的最终倍数是 min(gate_attenuation, 1/gain)，即无论增益多大，
-        静音段的绝对电平都不会超过输入。这才是「放大人声、不放大噪声」。
+        静音样本先按 gate_attenuation/gain 缩放，随后随整段再乘 gain，
+        两者抵消，最终倍数恒为 gate_attenuation，与增益多大无关。
+        这才是「放大人声、不放大噪声」。
     """
     if isinstance(profile, str):
         profile = get_profile(profile)
